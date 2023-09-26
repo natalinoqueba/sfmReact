@@ -6,6 +6,7 @@ const Slide = () => {
                     <div>
                         <h1>Bem Vindo a SOLVER FINANCIAL MULTISERVICES</h1>
                         <p>Encontre a melhor solução para os seus problemas Financeiros</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nostrum alias itaque perspiciatis consectetur velit et culpa officiis aliquam, mollitia assumenda odio in sed tempore pariatur numquam? Dolor, commodi voluptatum.</p>
                     </div>
                 </div>
             </div>
@@ -18,6 +19,7 @@ const Slide = () => {
                         </h1>
                         <p> Funcionário público </p>
                         <p>Comerciante</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nostrum alias itaque perspiciatis consectetur velit et culpa officiis aliquam, mollitia assumenda odio in sed tempore pariatur numquam? Dolor, commodi voluptatum.</p>
                     </div>
                 </div>
             </div>
@@ -38,6 +40,7 @@ const Slide = () => {
                             Encontre a melhor solução Financeira para os seus problemas
                             Financeiros
                         </p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nostrum alias itaque perspiciatis consectetur velit et culpa officiis aliquam, mollitia assumenda odio in sed tempore pariatur numquam? Dolor, commodi voluptatum.</p>
                     </div>
                 </div>
             </div>
