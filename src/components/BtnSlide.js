@@ -1,7 +1,7 @@
 const BtnSlide = () => {
   return (
     <div id="btSlides">
-      <div class="seta tras" onclick="trocarSlide(0)">
+      <div className="seta tras" onclick="trocarSlide(0)">
         <img
           src="imagens/tras.png"
           alt=""
@@ -9,16 +9,16 @@ const BtnSlide = () => {
           onmouseleave="seta(this)"
         />
       </div>
-      <div class="circulo">
+      <div className="circulo">
         <img src="imagens/circulo-preenchido.png" alt="" id="c1" />
       </div>
-      <div class="circulo">
+      <div className="circulo">
         <img src="imagens/circulo.png" alt="" id="c2" />
       </div>
-      <div class="circulo">
+      <div className="circulo">
         <img src="imagens/circulo.png" alt="" id="c3" />
       </div>
-      <div class="seta frente" onclick="trocarSlide(1)">
+      <div className="seta frente" onclick="trocarSlide(1)">
         <img
           src="imagens/tras.png"
           alt=""

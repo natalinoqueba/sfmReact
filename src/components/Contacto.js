@@ -5,22 +5,22 @@ const Contacto = () => {
                 <img src="imagens/teste.png" alt="" id="logo" />
             </div>
             <h3>Contacte em função da sua Provincia</h3>
-            <div class="conteiner">
+            <div className="conteiner">
                 <div id="formulario">
                     <form
                         action="https://formsubmit.co/info@solverfinancial.com"
                         method="POST"
                     >
                         <input type="hidden" name="Formulario" value="Formulario do Site" />
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <input type="text" name="Nome" required minlength="3" />
                             <span>Nome Completo</span>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <input type="email" name="Email" id="" required />
                             <span>Email</span>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <input
                                 type="tel"
                                 name="Telefone"
@@ -31,18 +31,18 @@ const Contacto = () => {
                             />
                             <span>Contacto </span>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <label for="textarea">
                                 <span>Assunto:</span>
                             </label>
                             <br />
                             <textarea id="textarea" name="textarea" required></textarea>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <input type="text" name="Nome da empresa" id="nome-empresa" />
                             <span>Nome da Instituição </span>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <select name="Provincia" id="" required>
                                 <option value="Maputo">Maputo</option>
                                 <option value="Beira">Zambézia</option>
@@ -51,7 +51,7 @@ const Contacto = () => {
                                 <option value="Manica">Manica</option>
                             </select>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <select name="Crédito" id="" required>
                                 <option value="Crédito ao Funciona Público">
                                     Crédito ao Funcionário Público
@@ -62,7 +62,7 @@ const Contacto = () => {
                                 <option value="Crédito ao consumo">Crédito ao consumo</option>
                             </select>
                         </div>
-                        <div class="inputBox">
+                        <div className="inputBox">
                             <input
                                 type="submit"
                                 value="Submeter"
@@ -72,46 +72,46 @@ const Contacto = () => {
                         </div>
                     </form>
                 </div>
-                <div class="imgBx">
+                <div className="imgBx">
                     <img src="imagens/IMG2.jpg" alt="solver-foto-formulario" />
                 </div>
             </div>
-            <button
-                class="bt"
+            {/* <button
+                className="bt"
                 onclick="mudarProv
                 (this, 'mp')"
             >
                 Maputo
             </button>
             <button
-                class="bt"
+                className="bt"
                 onclick="mudarProv
                 (this, 'zb')"
             >
                 Zambézia
             </button>
             <button
-                class="bt"
+                className="bt"
                 onclick="mudarProv
                 (this, 'np')"
             >
                 Nampula
             </button>
             <button
-                class="bt"
+                className="bt"
                 onclick="mudarProv
                  (this, 'in')"
             >
                 Inhambane
             </button>
             <button
-                class="bt"
+                className="bt"
                 onclick="mudarProv
                   (this, 'mc')"
             >
                 Manica
             </button>
-            <div id="prov"></div>
+            <div id="prov"></div> */}
         </div>
     );
 };

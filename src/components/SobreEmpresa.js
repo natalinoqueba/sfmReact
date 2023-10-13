@@ -1,8 +1,10 @@
+import sfm from "../images/sfm.jpg"
+
 const SobreEmpresa = () => {
     return (
         <div id="sobre_empresa">
             <div id="img_empresa">
-                <img src="imagens/IMG-20210923-WA0007.jpg" alt="" />
+                <img src={sfm} alt="" />
             </div>
             <div id="empresa_texto">
                 <h3>Sobre a Nossa Marca</h3>
